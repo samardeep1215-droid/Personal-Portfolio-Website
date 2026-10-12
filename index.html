@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of Samardeep Singh — Computer Science student, national-level basketball player, and problem solver." />
+  <title>Samardeep Singh | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header" id="top">
+    <nav class="nav container">
+      <a href="#top" class="logo">Samardeep<span>.</span></a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#achievements">Achievements</a></li>
+        <li><a href="#contact" class="nav-cta">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="hero">
+      <div class="hero-grid">
+        <div class="hero-content reveal">
+          <p class="eyebrow">Computer Science Student &middot; Basketball Athlete</p>
+          <h1>Hi, I'm <span class="grad">Samardeep Singh</span></h1>
+          <p class="hero-sub">
+            Computer Science undergraduate at CGC University, Mohali, with a foundation in programming,
+            data structures, and web development — and a national-level basketball background that built
+            discipline, teamwork, and the ability to perform under pressure.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">View Projects</a>
+            <a href="mailto:samardeep062300@gmail.com" class="btn btn-ghost">Get in Touch</a>
+          </div>
+          <ul class="hero-meta">
+            <li>&#9993; <a href="mailto:samardeep062300@gmail.com">samardeep062300@gmail.com</a></li>
+            <li>&#9742; <a href="tel:+918091304473">+91 80913 04473</a></li>
+            <li>&#127758; Mohali, Punjab, India</li>
+          </ul>
+        </div>
+        <div class="hero-card reveal">
+          <div class="basketball">&#127936;</div>
+          <h3>National-Level Athlete</h3>
+          <p>Discipline &middot; Teamwork &middot; Performance Under Pressure</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="about">
+      <h2 class="section-title reveal">Profile Summary</h2>
+      <div class="about-grid reveal">
+        <p class="about-text">
+          I am a Computer Science undergraduate focused on building practical projects, writing clean code,
+          and growing through real-world engineering work. My experience spans web development, REST APIs,
+          and data-driven dashboards, combined with a competitive sports mindset that keeps me consistent
+          and resilient.
+        </p>
+        <div class="stats">
+          <div class="stat"><span class="stat-num">7.47</span><span class="stat-label">CGPA</span></div>
+          <div class="stat"><span class="stat-num">2028</span><span class="stat-label">Graduation</span></div>
+          <div class="stat"><span class="stat-num">4+</span><span class="stat-label">Projects</span></div>
+          <div class="stat"><span class="stat-num">2</span><span class="stat-label">Certifications</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="education">
+      <h2 class="section-title reveal">Education</h2>
+      <div class="timeline">
+        <article class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-body">
+            <span class="tag">2024 – 2028</span>
+            <h3>Bachelor of Technology, Computer Science and Engineering</h3>
+            <p class="muted">CGC University, Mohali</p>
+            <p class="score">CGPA: 7.47</p>
+          </div>
+        </article>
+        <article class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-body">
+            <span class="tag">2024</span>
+            <h3>Senior Secondary (Class XII)</h3>
+            <p class="muted">St Mary's Convent School, Kasauli</p>
+            <p class="score">Percentage: 74%</p>
+          </div>
+        </article>
+        <article class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-body">
+            <span class="tag">2022</span>
+            <h3>Secondary (Class X)</h3>
+            <p class="muted">St Mary's Convent School, Kasauli</p>
+            <p class="score">Percentage: 84%</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section container" id="projects">
+      <h2 class="section-title reveal">Projects</h2>
+      <div class="cards">
+        <article class="card reveal">
+          <div class="card-icon">&#128202;</div>
+          <h3>HoopStats — Basketball Performance Analytics Dashboard</h3>
+          <p class="stack">React &middot; Python &middot; Chart.js</p>
+          <ul>
+            <li>Dashboard to log games and track points, rebounds, assists, and shooting percentages with season-wise trend charts.</li>
+            <li>Player comparison and per-game breakdowns to spot strengths and weak areas.</li>
+            <li>Designed around first-hand competitive basketball experience for real-world usability.</li>
+          </ul>
+        </article>
+        <article class="card reveal">
+          <div class="card-icon">&#127944;</div>
+          <h3>CourtBook — Court Booking &amp; Tournament Scheduler</h3>
+          <p class="stack">FastAPI &middot; SQL &middot; React</p>
+          <ul>
+            <li>App to book court slots and auto-generate knockout and league fixtures for local tournaments.</li>
+            <li>REST APIs and a relational schema for teams, matches, scores, and standings.</li>
+            <li>Input validation and clash detection to prevent double bookings.</li>
+          </ul>
+        </article>
+        <article class="card reveal">
+          <div class="card-icon">&#128176;</div>
+          <h3>Expense Tracker</h3>
+          <p class="stack">HTML &middot; CSS &middot; JavaScript</p>
+          <ul>
+            <li>Responsive tracker to add, categorize, and total income and expenses with automatic balance updates.</li>
+            <li>JavaScript for real-time calculations and form validation.</li>
+          </ul>
+        </article>
+        <article class="card reveal">
+          <div class="card-icon">&#128187;</div>
+          <h3>Personal Portfolio Website</h3>
+          <p class="stack">HTML &middot; CSS &middot; JavaScript &middot; Vercel</p>
+          <ul>
+            <li>Designed and deployed a responsive portfolio showcasing projects, skills, and sports achievements.</li>
+            <li>Links to live demos and source code.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section container" id="skills">
+      <h2 class="section-title reveal">Technical Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-block reveal">
+          <h4>Programming</h4>
+          <div class="chips"><span>Python</span><span>C++</span><span>JavaScript</span><span>SQL</span></div>
+        </div>
+        <div class="skill-block reveal">
+          <h4>Frontend</h4>
+          <div class="chips"><span>HTML5</span><span>CSS3</span><span>React.js</span></div>
+        </div>
+        <div class="skill-block reveal">
+          <h4>Backend &amp; Data</h4>
+          <div class="chips"><span>FastAPI</span><span>REST APIs</span><span>SQLite/PostgreSQL</span><span>Pandas</span><span>NumPy</span></div>
+        </div>
+        <div class="skill-block reveal">
+          <h4>Tools</h4>
+          <div class="chips"><span>Git</span><span>GitHub</span><span>VS Code</span><span>Vercel</span></div>
+        </div>
+        <div class="skill-block reveal">
+          <h4>Core CS Concepts</h4>
+          <div class="chips"><span>Data Structures &amp; Algorithms</span><span>OOP</span><span>Operating Systems</span><span>DBMS</span></div>
+        </div>
+        <div class="skill-block reveal">
+          <h4>Soft Skills</h4>
+          <div class="chips"><span>Teamwork</span><span>Leadership</span><span>Discipline</span><span>Time Management</span><span>Communication</span><span>Performing Under Pressure</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="achievements">
+      <h2 class="section-title reveal">Achievements &amp; Certifications</h2>
+      <div class="two-col">
+        <div class="reveal">
+          <h4 class="col-head">Achievements</h4>
+          <ul class="list">
+            <li>&#127942; National-Level Basketball Player</li>
+            <li>&#127942; Balanced competitive sport with academics, building discipline, teamwork, and resilience</li>
+          </ul>
+        </div>
+        <div class="reveal">
+          <h4 class="col-head">Certifications</h4>
+          <ul class="list">
+            <li>&#128220; Advanced Software Engineering Job Simulation — Walmart Global Tech (Forage)</li>
+            <li>&#128220; Responsive Web Design Certification — freeCodeCamp</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="contact">
+      <div class="contact-card reveal">
+        <h2>Let's build something together</h2>
+        <p>Open to internships, collaborations, and real-world engineering work.</p>
+        <div class="contact-actions">
+          <a href="mailto:samardeep062300@gmail.com" class="btn btn-primary">&#9993; Email Me</a>
+          <a href="tel:+918091304473" class="btn btn-ghost">&#9742; +91 80913 04473</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Samardeep Singh. All rights reserved.</p>
+      <a href="#top" class="to-top">Back to top &uarr;</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
